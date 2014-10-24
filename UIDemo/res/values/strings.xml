@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="numbers">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+    <string name="app_name">Lecture 3</string>
+    <string name="title_activity_main">UIDemo</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="title_activity_relative">Relative Activity</string>
+    <string name="frame_layout">Frame layout</string>
+    <string name="title_activity_frame">Frame Activity</string>
+    <string name="ka_boom_">Ka boom!</string>
+
+</resources>

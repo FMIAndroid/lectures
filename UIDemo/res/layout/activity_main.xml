@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="relativeLayout"
+        android:text="@string/relative_layout" />
+
+    <Button
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frame_layout" />
+
+    <Button
+        android:id="@+id/kaboom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ka_boom_" />
+    
+</LinearLayout>
